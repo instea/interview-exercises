@@ -1,5 +1,7 @@
 # Exercises for interviews
 
+Exercises should be imported using https://codesandbox.io/ and given to the candidate
+
 ## React
 
 Located in `packages/react`
