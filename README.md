@@ -25,7 +25,7 @@ The goal is to write a React component based on the textual description and a ty
 
 ## Javscript - read & refactor
 
-Located in `packages/javascript-read-refactor/`
+Located in `packages/javascript-read-refactor`
 
 The goal is to read code snippets, provide some feedback and try to refactor them
 
