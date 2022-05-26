@@ -2,9 +2,11 @@
 
 Exercises should be imported using https://codesandbox.io/ and given to the candidate
 
-## React
+## React - write component
 
-Located in `packages/react`
+Located in `packages/react-write-component`
+
+The goal is to write a React component based on the textual description and a type specification
 
 ### Evaluated personal factors
 
@@ -20,3 +22,15 @@ Located in `packages/react`
 * **Code reuse** - based on BONUS2 (if some code is extracted / parameterization is used vs. copy/paste)
 * **Library friendliness** - based on BONUS1 (if a candidate can produce bug-free code quickly, it shouldn't be such a problem) + usage of `lodash`/longer native solutions during the implementation
 * **Problem solving ability** - if a problem occurs, watch how the candidate reacts and whether (s)he is able to fix it
+
+## Javscript - read & refactor
+
+Located in `packages/javascript-read-refactor/`
+
+The goal is to read code snippets, provide some feedback and try to refactor them
+
+### Evaluated technical abilities
+
+* **Ability to read code** - based on the understanding of what the code should do
+* **Clean code and good practices** - subjective evaluation + using the preconfigured Lint
+* **Overall javascript knowledge** - based on the various syntax tricks and inner workings of the language

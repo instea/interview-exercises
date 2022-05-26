@@ -1,5 +1,5 @@
 {
-  "name": "interview-exercise-react",
+  "name": "interview-exercise-react-write-component",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,6 @@
   "devDependencies": {
     "@gsimone/codesandbox-vite-plugin": "^0.0.2",
     "@instea/eslint-config-react": "^1.0.0",
-    "@types/jest": "^27.4.1",
     "@types/lodash-es": "^4.17.6",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
