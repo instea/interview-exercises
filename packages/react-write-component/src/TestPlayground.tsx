@@ -37,21 +37,21 @@ export default function TestPlayground() {
       </div>
       <div className="Row">
         <ConcurrentButton
-          key={key}
+          key={`s-${key}`}
           operations={OPERATIONS_SUCCESS}
           onSuccess={results => console.log('Success: ', results)}
         >
           Run successfully
         </ConcurrentButton>
         <ConcurrentButton
-          key={key}
+          key={`e-${key}`}
           operations={OPERATIONS_ERROR}
           onError={e => console.error(e)}
         >
           Run with error
         </ConcurrentButton>
         <ConcurrentButton
-          key={key}
+          key={`m-${key}`}
           operations={OPERATIONS_MANY}
           maxConcurrency={4}
         >

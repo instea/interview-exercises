@@ -17,7 +17,7 @@ export type ConcurrentButtonProps = {
 /**
  * This component runs all the operations on click
  *   - while the operations are running, the button should be disabled and display '{numberOfDone}/{numberOfAll}' after the label
- *   - when any operation fails, the button should display ' (ERROR)' after the label and call `onError`
+ *   - when any operation fails, the button should display ' (ERROR)' after the label (children) and call `onError`
  *   - when all operations complete successfully, button should be in the initial state and call `onSuccess`
  *   - BONUS1: if `maxConcurrency` is provided, only that number of promises may run at the same time
  *     - there is '@supercharge/promise-pool' library installed, use it if you want to save time writing your own solution
