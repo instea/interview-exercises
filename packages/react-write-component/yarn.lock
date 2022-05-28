@@ -1065,11 +1065,6 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@gsimone/codesandbox-vite-plugin@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@gsimone/codesandbox-vite-plugin/-/codesandbox-vite-plugin-0.0.2.tgz#2b676c1bd8a4c35e824bf47c95cdb1932b05dc79"
-  integrity sha512-cO+PvXTNr1aR2Hx0FGrqVPakzWrvZ56lwjneiYqeB+l1BeTeONL56M21kFtsZn4+uqN2jws9r80QdbOlaGRKXg==
-
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"

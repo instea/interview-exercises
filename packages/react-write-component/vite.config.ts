@@ -1,11 +1,27 @@
-import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import codesandbox from '@gsimone/codesandbox-vite-plugin';
+import { merge } from 'lodash-es';
+import { PluginOption, UserConfig, defineConfig } from 'vite';
+
+function codesandboxPlugin(): PluginOption {
+  if (typeof process.env.CODESANDBOX_HOST === 'undefined') {
+    return null;
+  }
+
+  return {
+    name: 'codesandbox-projects-plugin',
+    config: (config: UserConfig) =>
+      merge({}, config, {
+        server: {
+          hmr: {
+            clientPort: 443,
+            protocol: 'wss',
+          },
+        },
+      } as UserConfig),
+  };
+}
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  server: {
-    hmr: process.env.HMR_PROTOCOL ? { protocol: process.env.HMR_PROTOCOL } : {},
-  },
-  plugins: [react(), codesandbox()],
+  plugins: [react(), codesandboxPlugin()],
 });

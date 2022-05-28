@@ -2,8 +2,7 @@
   "name": "interview-exercise-react-write-component",
   "version": "0.0.0",
   "scripts": {
-    "dev": "HMR_PROTOCOL=wss vite",
-    "dev:local": "vite",
+    "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview --port 8080 # Serve built files",
     "lint": "eslint --max-warnings 0 --ext .tsx,.ts,.js src/",
@@ -16,7 +15,6 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
-    "@gsimone/codesandbox-vite-plugin": "^0.0.2",
     "@instea/eslint-config-react": "^1.0.0",
     "@types/lodash-es": "^4.17.6",
     "@types/node": "^17.0.36",
