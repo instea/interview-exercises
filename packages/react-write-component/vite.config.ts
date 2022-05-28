@@ -1,5 +1,5 @@
 import react from '@vitejs/plugin-react';
-import { merge } from 'lodash-es';
+import { merge } from 'lodash';
 import { PluginOption, UserConfig, defineConfig } from 'vite';
 
 function codesandboxPlugin(): PluginOption {
