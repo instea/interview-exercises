@@ -17,7 +17,7 @@ type Person = {
 
 /**
  * Provide feedback for this function and try to refactor it
- * You can use native javascript features or a library of your choice (`lodash-es` is already installed)
+ * You can use native javascript features or a library of your choice
  */
 export function modifyObject(origPerson: Person, changes: Partial<Person>) {
   const p = origPerson as any;

@@ -7,6 +7,7 @@ import { ReactNode } from 'react';
  *    the same
  *  - you can modify the component to class component
  *    or any other variation if you so please
+ *  - you can install any libraries if you want
  */
 
 export type ConcurrentButtonProps = {
@@ -28,12 +29,9 @@ export type ConcurrentButtonProps = {
  *   - when all operations complete successfully,
  *     button should be in the initial state and
  *     call `onSuccess`
- *   - BONUS1: if `maxConcurrency` is provided, only
- *     that number of promises may run at the same time
- *     - there is '@supercharge/promise-pool' library
- *       installed, use it if you want to save time
- *        writing your own solution
- *   - BONUS2: create a similar component, which will
+ *   - if `maxConcurrency` is provided, only that
+ *     number of operations may run at the same time
+ *   - BONUS: create a similar component, which will
  *     be a link ('<a/>') instead of button
  */
 export function ConcurrentButton(props: ConcurrentButtonProps) {

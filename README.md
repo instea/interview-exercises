@@ -19,8 +19,7 @@ The goal is to write a React component based on the textual description and a ty
   * Suggested test: reset during execution (if useState is used for unmounted component, it will throw an error into console)
 * **Clean code and good practices** - subjective evaluation + using the preconfigured Lint
 * **Overall javascript knowledge** - based on the understanding of asynchronicity and how promises work
-* **Code reuse** - based on BONUS2 (if some code is extracted / parameterization is used vs. copy/paste)
-* **Library friendliness** - based on BONUS1 (if a candidate can produce bug-free code quickly, it shouldn't be such a problem) + usage of `lodash`/longer native solutions during the implementation
+* **Code reuse** - based on BONUS (if some code is extracted / parameterization is used vs. copy/paste)
 * **Problem solving ability** - if a problem occurs, watch how the candidate reacts and whether (s)he is able to fix it
 
 ## Javscript - read & refactor
@@ -34,3 +33,4 @@ The goal is to read code snippets, provide some feedback and try to refactor the
 * **Ability to read code** - based on the understanding of what the code should do
 * **Clean code and good practices** - subjective evaluation + using the preconfigured Lint
 * **Overall javascript knowledge** - based on the various syntax tricks and inner workings of the language
+* **Library friendliness/usage** - based on the usage of libraries vs. custom code
