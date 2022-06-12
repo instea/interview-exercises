@@ -8,6 +8,10 @@ Located in `packages/react-write-component`
 
 The goal is to write a React component based on the textual description and a type specification
 
+### Exercise description
+
+`src/concurrentElements.tsx`
+
 ### Evaluated personal factors
 
 * **Formability** - ask why a candidate chose a specific solution (for example function vs class component), listen to arguments, gauge an openness for the alternative
@@ -22,11 +26,31 @@ The goal is to write a React component based on the textual description and a ty
 * **Code reuse** - based on BONUS (if some code is extracted / parameterization is used vs. copy/paste)
 * **Problem solving ability** - if a problem occurs, watch how the candidate reacts and whether (s)he is able to fix it
 
+## React - read & refactor
+
+Located in `packages/react-read-refactor`
+
+The goal is to read code and overall application design and come up with a fix in accordance with React principles
+
+### Exercise description
+
+`src/App.tsx`
+
+### Evaluated technical abilities
+
+* **React abilities** - based on the inner component design, state management, ability to detect the source of the bug, ...
+* **Ability to read code** - based on the understanding of the overall structure
+* **Clean code and good practices** - subjective evaluation + using the preconfigured Lint
+
 ## Javscript - read & refactor
 
 Located in `packages/javascript-read-refactor`
 
 The goal is to read code snippets, provide some feedback and try to refactor them
+
+### Exercise description
+
+`src/*.ts`
 
 ### Evaluated technical abilities
 
